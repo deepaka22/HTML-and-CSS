@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       form{
+            padding: 20px 20px;
+            margin: 8px 0px;
+            display:-moz-inline-box;
+            border: 8px solid gray;
+            border-radius: 20px;
+             box-sizing: border-box;
+             background-color: lightgray;
+        }
+        input[type="button"]{
+            text-align: center;
+            background-color:rgb(228, 207, 207);
+        }
+           
+        article,input[type="text"]{
+            border:20px;
+            margin: 18px 0px;
+            border-width: 20px;
+            box-sizing:border-box;
+            display:-moz-inline-box;
+        }
+    </style>
+</head>
+<body>
+    <form>
+            <H1>Contact us</H1>
+            <p> We love questions and feedback - and we're always happy to help !</br> Here are some 
+            ways to contact us. </p>       
+            <h1> Send us message </h1> 
+            <p> Send us a message and we'll respond within 24 hours. </p></br>
+     <div>
+        <label for= "FirsName">First name </label>
+        <input type="FirstName" name="FirstName" placeholder="John">
+
+        <label for= "FirsName">Last Name name </label>
+        <input type="FirstName" name="FirstName" placeholder="Doe"> </br> </br>
+
+        <label for= "FirsName">Email </label>
+        <input type="email" name="Email" placeholder="Enter your mail">
+
+        <label for= "FirsName">Phone </label>
+        <input type="number" name="phoneNO" placeholder="Telephone number"> </br> </br>
+
+        <input type="radio" name="gender" id="FirsName">
+        <label for= "FirsName">Male</label>
+
+        <input type="radio" name="gender" id="">
+        <label for= "gender"> female </label>
+
+        <H1>Comments</H1>
+        <article>
+
+        <input type="text" name="Paragraph" placeholder="Drop your comments in heresssssssssssssssssssssssssss">
+    </article> </br>
+
+        <input type = "button" value="Submit">
+        </tbody>
+
+
+
+
+    </div>
+    </form>
+
+</body>
+</html>
